@@ -42,7 +42,7 @@ subset <- household_power_consumption[which(
 
 ## open png device
 
-## png(filename = "plot2.png")
+png(filename = "plot2.png")
 
 ## plot the data with appropriate label
 
@@ -55,4 +55,4 @@ plot(subset$Time,subset$Global_active_power,
 
 ## close the file device
 
-## dev.off()
+dev.off()
