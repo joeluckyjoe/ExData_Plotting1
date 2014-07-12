@@ -7,8 +7,6 @@
 
 ##  download the zip file to your current working directory
 
-setwd("C:/Users/P06226/datascienceeda/ExData_Plotting1")
-
 zipUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 
 if (!file.exists("./household_power_consumption.zip")) {
