@@ -100,3 +100,4 @@ plot(datetime, Global_reactive_power,
 ## close the file device
 
 dev.off()
+
